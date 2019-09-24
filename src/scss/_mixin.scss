@@ -1,5 +1,0 @@
-@mixin respond-to($media) {
-	@if $media == tablet {
-		@media (min-width:$tablet) { @content; }
-	}
-}
