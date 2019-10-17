@@ -31,9 +31,6 @@
       clearText(){
         this.newItem = '';
       },
-      // customFormatter(date){
-      //   return Moment(date).format('YYYY MM dd');
-      // }
     },
         
     directives: {

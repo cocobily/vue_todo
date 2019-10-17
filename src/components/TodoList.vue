@@ -25,7 +25,6 @@
                 @dblclick="editItem(item.key, index, item.isEdit)">
                   {{item.value}}
               </span>
-              <span class="item_dt"> (2019-10-01)</span>
             </div>
             <button class="btn_remove" @click="removeItem(item.key, index)">-</button>
           </div>
